@@ -15,6 +15,11 @@ int main()
     clock_t end = clock();
     double time_bubble = (double)(end - start) / CLOCKS_PER_SEC;
 
+    clock_t start = clock();
+    bubbleSort(array, MAXN);
+    clock_t end = clock();
+    double time_bubble = (double)(end - start) / CLOCKS_PER_SEC;
+
     start = clock();
     insertionSort(array, MAXN);
     end = clock();
