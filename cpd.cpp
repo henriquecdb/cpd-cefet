@@ -19,7 +19,7 @@ void bubbleSort(int array[], int length) {
 void randInt(int array[], int length) {
     srand(time(NULL));
     for (int i = 0; i < length; i++) {
-        array[i] = rand() % 100000;
+        array[i] = rand() % 100001;
     }
 }
 
