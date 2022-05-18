@@ -91,8 +91,10 @@ int main()
 }
 
 void sortDescending(int array[], int length) {
+    int j = 0;
     for (int i = MAXN - 1; i >= 0; i--) {
-        array[i] = i;
+        array[j] = i;
+        j++;
     }
 }
 
